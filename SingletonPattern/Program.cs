@@ -12,7 +12,7 @@ namespace SingletonPattern
         {
             for (int i = 0; i < 10; i++)
             {
-                Console.WriteLine(GuideService.CreateAsGuid().ToString());
+                Console.WriteLine(GuidService.CreateAsGuid().ToString());
             }
 
             Console.ReadLine();

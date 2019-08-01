@@ -17,6 +17,7 @@ namespace CompositePattern
             var emp4 = new Model.Emplooye() { Name = "Ahmet" };
             var emp5 = new Model.Emplooye() { Name = "Mehmet" };
             var emp6 = new Model.Emplooye() { Name = "Cevdet" };
+            var emp7 = new Model.Emplooye() { Name = "Mahmut" };
 
             emp1.AddSubOrdinate(emp2);
             emp1.AddSubOrdinate(emp3);

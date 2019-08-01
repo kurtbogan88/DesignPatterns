@@ -16,9 +16,6 @@ namespace ProxyPattern
             var aa = crediManager.Calculate();
             Console.Write(aa.ToString());
             
-            //var ab = crediManager.Calculate();
-
-
             var creaditManagerProxy = new CreaditManagerProxy();
             var asd = creaditManagerProxy.Calculate();
             Console.WriteLine(asd);

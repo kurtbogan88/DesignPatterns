@@ -2,11 +2,11 @@
 
 namespace SingletonPattern
 {
-    public class GuideService
+    public class GuidService
     {
         private static Guid _guid;
         private static object _lock = new object();
-        private GuideService()
+        private GuidService()
         {
 
         }
