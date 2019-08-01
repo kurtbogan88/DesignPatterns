@@ -14,7 +14,7 @@ namespace Prototype
             Console.WriteLine(cus1.Name + " " + cus1.SirName);
 
             Customer cus2 = (Customer)cus1.Clone();
-            cus2.Name = "Gamze";
+            cus2.Name = "Yasar";
             Console.WriteLine(cus2.Name + " " + cus2.SirName);
 
             Console.ReadLine();
