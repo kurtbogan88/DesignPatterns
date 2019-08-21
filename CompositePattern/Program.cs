@@ -29,6 +29,11 @@ namespace CompositePattern
             emp1.AddSubOrdinate(emp3);
             emp4.AddSubOrdinate(emp4);
 
+
+            emp5.AddSubOrdinate(emp6);
+            emp7.AddSubOrdinate(emp8);
+            emp4.AddSubOrdinate(emp4);
+
             Console.WriteLine(emp1.Name);
             foreach (Model.Emplooye mng in emp1)
             {
